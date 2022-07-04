@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+span{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+    
+
+    
+}
+.Link-button{
+    text-decoration: none;
+    color: white;
+     padding: 10px 40px ;
+     border-radius: 5px;
+     font-weight: 600;
+     background-image: linear-gradient(orange,rgb(248, 148, 131));
+}
+.top-banner{
+    background: url(/images/top-banner.png);
+    background-repeat: no-repeat;
+}
